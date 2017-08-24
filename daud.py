@@ -1,4 +1,4 @@
-﻿import discord
+import discord
 from discord.ext import commands
 import random
 
@@ -93,7 +93,9 @@ async def d(arg="whatever"):
                80: "Can it wait for a bit? I'm in the middle of some assassinations.",
                81: "DAMN good sun tea.",
                82: "[takes a bite of rotten tyvian pear] What? And Corvo eating rat skewers isn't disgusting?",
-               83: "Wait a minute, I need to finish this tin of jellied eels."
+               83: "Wait a minute, I need to finish this tin of jellied eels.",
+               84: ":dad2:",
+               85: ":dad:"
                
                }
    answerdict = {0: "Never Daud it.",
@@ -128,7 +130,8 @@ async def d(arg="whatever"):
                  29: "[licks finger, touches the air] Hmm... yes.",
                  30: "Certainly.",
                  31: "How about no",
-                 32: "We'll settle this Serkonan style. [death drops]"
+                 32: "We'll settle this Serkonan style. [death drops]",
+                 33: ":dad2:"
                  }
    randomtalk = random.randrange(0, len(talkdict))
    randomanswer = random.randrange(0, len(answerdict))
