@@ -9,6 +9,10 @@ async def on_ready():
    print("bot logged on: " + bot.user.name + "//" + bot.user.id)
 
 @bot.command()
+async def h():
+   await bot.say('With "/d ?" or "/d "[question]?"" I answer to yes/no/maybe or other simple questions. For some *Extra* lines just type in "/d".')
+
+@bot.command()
 
 async def d(arg="whatever"):
    talkdict = {0: "GGGGGGGGGGG GG GGG G",
